@@ -16,5 +16,5 @@ This means that unfortunately we cannot just cumulate the volume of jugs per fla
 
 The algorithm used should be a greedy algorithm
 
-FINAL GRADE: 4.0 - instead of greedy algorithm I wrote a semi-optimal solution
+GRADE: 4.0 - instead of greedy algorithm I wrote a semi-optimal solution
 Possible Grades: 2.0(Failing) - 5.0;
