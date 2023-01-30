@@ -1,0 +1,20 @@
+1st Task:
+Given 2 text files: 
+-one containing clients and their preferences for flavours of juice 
+-second one containing jugs filled with juice of a certain flavour, and volume of the jug
+
+Now we have to distribute the juice amongst the clients, in a way that the cumulative sum of satisfaction of all clients is the highest,
+while their dissatisfaction is the lowest. Every client starts with 400 dissatisfaction, and for every 1ml of only their favourite juice
+the dissatisfaction lowers by one (It cannot be lower than 0).
+Every client starts with 0 satisfaction, and for every 1ml of the juice they have a preference for they get (n - k + 1) satisfaction,
+where n is the amount of flavours they have a preference for, k is the position of the flavour being distributed. Example:
+Client has preferences: flavour 1 -> flavour 3 -> flavour 2. For every milliliter of juice with flavour 1, he gets 3 satisfaction and loses 1 dissatisfaction.
+For every millilitre of juice with flavour 2 he only gets 1 satisfaction.
+
+There is one additional requirement : Once a client is poured a juice of certain flavour from a jug, he cannot get a portion of juice of that flavour from any other jug.
+This means that unfortunately we cannot just cumulate the volume of jugs per flavour and distribute it that way.
+
+The algorithm used should be a greedy algorithm
+
+FINAL GRADE: 4.0 - instead of greedy algorithm I wrote a semi-optimal solution
+Possible Grades: 2.0(Failing) - 5.0;
